@@ -1,0 +1,240 @@
+:root{
+  --primaryLight: #F1F1F1;
+  --primaryDark: #111111;
+
+  --white: #ffffff;
+  --LightGray: #ECECEC;
+
+  --fontDark: #010203;
+  --fontDarkGray: #424242;
+  --fontGray: #808080;
+
+  --borderGray: #DCDCDC;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  box-sizing: border-box;
+  background-color: transparent;
+  outline: none;
+  color: var(--fontGray);
+}
+
+body{
+  background-color: var(--primaryLight);
+}
+ิิิิิิ
+h6{
+  color: var(--fontDark);
+}
+
+i{
+  font-size: 1.25rem;
+}
+
+button{
+  cursor: pointer;
+}
+
+.primaryNavbarParent{
+  position: relative;
+}
+
+.primaryNavbarChild,
+.primaryNavbarChild-menu-page,
+.primaryNavbarChild-menu-page-item,
+.primaryNavbarChild-searchbar,
+.primaryNavbarChild-search,
+.search-button,
+.primaryNavbarChild-menu-icon-item.button,
+.primaryNavbarChild-menu-icon,
+.primaryNavbarChild-menu-icon-item,
+.primaryNavbarChild-menu-icon.button h6{
+  display: flex;
+  align-items: center;
+}
+
+.primaryNavbarChildren{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid var(--borderGray);
+  box-shadow: 0px 1px 2px rgba(236, 236, 236, 0.25);
+}
+
+.primaryNavbarChild{
+  height: 50px;
+  margin: 0px 24px 0px 0px ;
+}
+
+.primaryNavbarChild-menu-icon,.primaryNavbarChild-menu-page{
+  height: 100%;}
+
+.primaryNavbarChild .primaryNavbarChild-menu-page-item,.primaryNavbarChild .primaryNavbarChild-menu-icon-item{
+  padding-top: 10px;
+  height: 100%;
+  margin-right: 20px;
+  position: relative;
+}
+
+.primaryNavbarChild .primaryNavbarChild-menu-page-item h6,.primaryNavbarChild .primaryNavbarChild-menu-icon-item h6{
+color: var(--fontDarkGray);
+}
+
+.primaryNavbarChild-menu-page-item::after{
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  opacity: 0;
+  background-color: var(--primaryDark);
+}
+
+.primaryNavbarChild-menu-page-item:hover:after{
+  opacity: 1;
+}
+
+.primaryNavbarChild-menu-page-item:hover h6{
+ color: #111111;
+}
+
+.primaryNavbarChild-menu-icon.button h6{
+  padding: 0px 16px;
+  min-width: 130px;
+  height: 100%;
+  justify-content: center;
+}
+
+
+.primaryNavbarChild-menu-icon-item.setting{
+  margin: 0;
+}
+
+
+
+.primaryNavbarChild-searchbar{
+  margin: 0px auto ;
+  padding: 0 30px;
+  width: 400px;
+}
+.primaryNavbarChild-search{
+  height: 32px;
+  width: 100%;
+  padding: 0px 8px 0px 10px;
+  border-radius: 20px;
+  border: 1px solid var(--borderGray);
+  background-color: var(--LightGray);
+}
+
+input[type=text]{
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+/* header,nav{
+  display: flex;
+  justify-content: s                v                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ;
+  align-items: flex-start;
+}
+
+nav{ 
+  width: 100%;
+  height: 49px;
+  padding: 0px 10px 0px 10px;
+  border-bottom: 1px solid var(--borderGray);
+  box-shadow: 0px 1px 2px rgba(236, 236, 236, 0.25);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav
+
+ul{
+  margin: 9px 0 1px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul li{
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-page{
+
+ width: 300px;
+}
+
+.menu-page li{
+  position: relative;
+}
+.menu-page li::after{
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 100%;
+  opacity: 0;
+  background-color: var(--primaryDark);
+}
+
+.menu-page li:hover:after{
+  opacity: 1;
+}
+
+.menu-page li:hover h6{
+ color: #111111;
+}
+
+.menu-icon{
+   width: 250px;
+}
+
+.search{
+  margin: 0 30px;
+  height: 30px;
+  min-width: 130px;
+  width: 400px;
+  padding: 0px 8px 0px 10px;
+  border-radius: 20px;
+  border: 1px solid var(--borderGray);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--LightGray);
+}
+
+input[type=text]{
+  height: 100%;
+  width: 100%;
+  outline: none;
+}
+
+.search-button{
+  cursor: pointer;
+}
+
+body{
+  background-color: var(--primaryLight);
+}
+
+
+@media only screen and (max-width: 984px) {
+  body {
+    background-color: lightblue;
+  }
+} */

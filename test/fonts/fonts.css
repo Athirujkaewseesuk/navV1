@@ -1,0 +1,71 @@
+@font-face {
+  font-family: humanSans;
+  src: url(../fonts/EN/human_sans/HumanSans_OTF/HumanSans-Regular.otf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: humanSans;
+  src: url(../fonts/EN/human_sans/HumanSans_OTF/HumanSans-Medium.otf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: humanSans;
+  src: url(../fonts/EN/human_sans/HumanSans_OTF/HumanSans-Light.otf);
+  font-weight: 100;
+}
+
+p{
+  font-family: humanSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.812rem;
+  line-height: 120.1%;
+}
+
+h6{
+  font-family: humanSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 120.1%;
+}
+
+h5{
+  font-family: humanSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.250rem;
+  line-height: 120.1%;
+}
+
+h4{
+  font-family: humanSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.562rem;
+  line-height: 120.1%;
+}
+
+h3{
+  font-family: humanSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.938rem;
+  line-height: 120.1%;
+}
+
+h2{
+  font-family: humanSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.438rem;
+  line-height: 120.1%;
+}
+
+h1{
+  font-family: humanSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.062rem;
+  line-height: 120.1%;
+}
