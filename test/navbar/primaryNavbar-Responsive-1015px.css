@@ -1,0 +1,21 @@
+
+@media only screen and (max-width: 1015px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .primaryNavbarChild-menu-page{
+    display: none;
+  }
+
+  .primaryNavbarChild-menu-icon.menu{
+    display: flex;
+  }
+
+  .primaryNavbarChild-searchbar{
+    margin: 0px auto ;
+    padding-right: 24px;
+    width: 324px;
+  }
+
+}

@@ -1,0 +1,14 @@
+
+
+.primaryNavbarChild-logo,.primaryNavbarChild-logo-sami{
+  margin: 0 24px;
+}
+
+.primaryNavbarChild-menu-icon-item a i{
+  font-size: 1.25rem;
+  /* background-color: aqua; */
+}
+
+.primaryNavbarChild-menu-icon.menu i{
+  font-size: 1.5rem;
+}

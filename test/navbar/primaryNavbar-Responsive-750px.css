@@ -1,0 +1,17 @@
+@media only screen and (max-width: 750px) {
+  body {
+    background-color: red;
+  }
+  .primaryNavbarChild-logo,
+  .primaryNavbarChild-menu-icon-item.theme,
+  .primaryNavbarChild-menu-icon-item.button{
+    display: none;
+  }
+  .primaryNavbarChild-logo-sami{
+    display: flex;
+  }
+
+  .primaryNavbarChild-menu-icon-item.user{
+  display: flex;
+  }
+}
